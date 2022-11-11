@@ -1,0 +1,86 @@
+@import "../../assests/scssStyles/mixins";
+
+.countdown-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assests/images/CoverImage.png");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: 0vw -20vh;
+  @include devices(mobile) {
+    background-position: -25vw -5vh;
+    background-size: 150vw;
+    height: auto;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-container:after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    258.32deg,
+    #ffffff 8.57%,
+    #faf9f9 15.73%,
+    #edeaea 24.65%,
+    #d9d3d3 33.73%,
+    #cdc7c7 35.71%,
+    #aba6a6 42.19%,
+    #938f8f 48.37%,
+    #858080 54.09%,
+    #807c7c 58.89%,
+    #ccc6c6 84.81%
+  );
+  @include devices(mobile) {
+    position: inherit;
+  }
+}
+
+.countdown-logo {
+  @include devices(mobile) {
+    width: auto;
+    height: 12.5vh;
+    margin-top: 5vh;
+  }
+  width: 300px;
+  height: auto;
+  filter: drop-shadow(6px 6px 9px rgba(0, 0, 0, 0.5));
+}
+
+.countdown-title {
+  text-align: center;
+
+  h3 {
+    font-weight: lighter;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 61px;
+  }
+  @include devices(mobile) {
+  }
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+
+  h1 {
+    color: #202c3d;
+    padding: 30px;
+  }
+  p {
+    text-align: justify;
+    padding: 0 10vw;
+    padding-bottom: 5vh;
+  }
+}
