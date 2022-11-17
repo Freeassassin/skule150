@@ -28,6 +28,7 @@ const TransitionRoutes = () => {
       <ScrollToTop />
       <CSSTransition key={location.key} classNames="page" timeout={300}>
         <Routes location={location}>
+        <Route path="*" element={pages['404'].component} />
           {[
             ...pages.main
           ].map((page) => {
@@ -44,7 +45,7 @@ const TransitionRoutes = () => {
               />
             );
           })}
-          <Route path="*" element={pages['404'].component} />
+          
         </Routes>
       </CSSTransition>
     </TransitionGroup>

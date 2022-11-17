@@ -10,7 +10,7 @@ import { PageResubscribe } from "../pages/Resubscribe/Resubscribe";
 export const pages = {
   404: {
     label: "404",
-    component: <Page404 />,
+    component: <PageMaintenance />,
   },
   main: [
     {
