@@ -7,7 +7,7 @@ const PageMaintenance = () => {
       <div className="maintenance-container">
         <div className="maintenance-graphic">
           <img
-            className="countdown-logo"
+            className="maintenance-logo"
             src={constructionGraphic}
             alt="skule150 logo"
           ></img>
