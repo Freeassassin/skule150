@@ -1,15 +1,11 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.scss";
 
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { pages } from "../../utils/pages";
-import { DarkThemeContext } from "../../utils/ThemeProvider";
-
 import SKULE150Logo from "../../assests/images/Skule150Logo.png";
 
 const Navbar = () => {
-  const { DarkTheme, setDarkThemeStatus } = useContext(DarkThemeContext);
-
   return (
     <>
       <div className="navbar-desktop">
@@ -25,7 +21,7 @@ const NavbarDesktop = () => {
 
   useEffect(() => {
     let check = false;
-    pages.main.map((page) => {
+    pages.main.forEach((page) => {
       if (pathname === page.path && page.transparentNavbar === true) {
         check = true;
       }

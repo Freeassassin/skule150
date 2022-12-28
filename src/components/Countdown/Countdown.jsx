@@ -3,15 +3,12 @@ import { useState, useEffect } from "react";
 import "./Countdown.scss";
 
 const Countdown = () => {
-  const [targetDate, setTargetDate] = useState();
   const [countDownDate, setCountDownDate] = useState();
-  //const [targetDate, targetDate]
 
   useEffect(() => {
     const tempDate = new Date("2023/03/29"); // add skule 150 time
     const tempCountDownDate = new Date(tempDate).getTime();
 
-    setTargetDate(tempDate);
     setCountDownDate(tempCountDownDate);
     console.log(tempDate);
   }, []);

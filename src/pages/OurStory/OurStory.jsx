@@ -1,11 +1,16 @@
 import "./OurStory.scss";
+import constructionGraphic from "../../assests/images/constructionGraphic.svg";
 
 const PageOurStory = () => {
   return (
     <>
       <div className="maintenance-container">
         <div className="maintenance-graphic">
-          <img className="maintenance-logo" alt="skule150 logo"></img>
+          <img
+            className="maintenance-logo"
+            src={constructionGraphic}
+            alt="skule150 logo"
+          ></img>
         </div>
         <div className="maintenance-title">
           <h1>UNDER CONSTRUCTION...</h1>
