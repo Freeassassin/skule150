@@ -88,10 +88,10 @@ export const themes = {
   "--placeholder-text": ["#D2D2D2", "#A282BE"],
 
   //signup page, profile page bubbles, payment error page
-  "--container-bg": ["#ffffff", "#613480"],
+  "--container-bg": ["#ffffff", "#ffffff"],
 
   //tasks and announcements
-  "--task-container": ["#ffffff", "#8c60b3"], //also for timeline container
+  "--task-container": ["#ffffff", "#ffffff"], //also for timeline container
   "--task-date": ["#b297c7", "#ecd6ff"],
   "--task-check-border": ["#a04fb9", "#ecd6ff"],
 
@@ -122,11 +122,11 @@ export const themes = {
   "--sponsor-background": ["#FFFFFF00", "#ffffff"],
 
   //scrollbar
-  "--scrollbar-thumb-hover": ["#616161", "#7C508C"],
+  "--scrollbar-thumb-hover": ["#616161", "#a1a1a1"],
   "--scrollbar-thumb": ["#7c7c7c", "#966AA3"],
   "--scrollbar-track": ["#fffff", "#ffff"],
 
-  "--scunt-counter-bg": ["#a04fb9", "#8c60b3"],
+  "--scunt-counter-bg": ["#a1a1a1", "#a1a1a1"],
 
-  "--scunt-leaderboard-bar": ["#6f1e88", "#ffcc4a"],
+  "--scunt-leaderboard-bar": ["#a1a1a1", "#a1a1a1"],
 };

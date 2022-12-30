@@ -37,7 +37,7 @@ const NavbarDesktop = () => {
     <>
       <div
         className="navbar-container"
-        style={transparent ? { background: "none" } : {}}
+        style={transparent ? { background: "none", position: "absolute" } : {}}
       >
         <div className="navbar-logo">
           <Link to={"/"} key={"home"}>
