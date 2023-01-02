@@ -1,5 +1,4 @@
 import { BrowserRouter, useLocation, Route, Routes } from "react-router-dom";
-import { browserHistory } from "react-router";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { Navbar } from "./components/Navbar/Navbar";
 import { ThemeProvider } from "./utils/ThemeProvider";
