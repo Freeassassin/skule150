@@ -3,8 +3,10 @@
 .countdown {
   display: flex;
   flex-direction: row;
+  margin-bottom: 20vh;
   @include devices(mobile) {
     margin-bottom: 10vh;
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10vh 0;
@@ -31,7 +33,7 @@
   .countdown-number {
     margin: 0px 5vw;
     margin-top: 15px;
-    padding: 10px 10px;
+    padding: 10px;
     border-radius: 15px;
 
     min-width: 10vw;
