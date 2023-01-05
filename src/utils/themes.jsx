@@ -51,7 +51,7 @@ export const themes = {
 
   //navbar
   "--navbar-bg": ["#ebebeb", "#41225A"],
-  "--navbar-link": ["#989898", "#ffffff"],
+  "--navbar-link": ["#ffffff", "#ffffff"],
   "--navbar-underline": ["#e2e2e2", "#3C2152"],
   "--navbar-underline-desktop": ["#6f1e88", "#8c60b3"],
   "--navbar-underline-highlight": ["#6f1e88", "#8c60b3"],
