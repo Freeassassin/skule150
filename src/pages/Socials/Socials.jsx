@@ -2,12 +2,9 @@ import { useEffect } from "react";
 
 const PageSocials = () => {
   useEffect(() => {
-    window.location.replace("https://www.instagram.com/skule150/");
+    window.location.replace("https://linktr.ee/skule150");
   }, []);
-  return (
-    <>
-    </>
-  );
+  return <></>;
 };
 
 export { PageSocials };

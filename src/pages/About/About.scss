@@ -2,14 +2,14 @@
 
 .countdown-container {
   width: 100%;
-  // height: 100vh;
   padding-top: 15vh;
   background-image: url("../../assests/images/CoverImage.png");
   background-size: 100vw;
   background-repeat: no-repeat;
   background-position: 0vw -20vh;
   @include devices(mobile) {
-    background-position: -25vw -5vh;
+    background-position: -25vw 0vh;
+    padding-top: 0vh;
     background-size: 150vw;
     height: auto;
   }
@@ -39,16 +39,13 @@
     #807c7c 58.89%,
     #ccc6c6 84.81%
   );
-  @include devices(mobile) {
-    position: inherit;
-  }
 }
 
 .countdown-logo {
   @include devices(mobile) {
     width: auto;
-    height: 12.5vh;
-    margin-top: 5vh;
+    height: 9.5vh;
+    margin: 1vh 0vw 1vh 0;
   }
   width: 300px;
   height: auto;
@@ -64,8 +61,6 @@
     color: #ffffff;
     line-height: 61px;
   }
-  @include devices(mobile) {
-  }
 }
 
 .about-container {
@@ -78,10 +73,16 @@
   h1 {
     color: #202c3d;
     padding: 30px;
+    @include devices(mobile) {
+      font-size: 80px;
+    }
   }
   p {
     text-align: justify;
     padding: 0 10vw;
     padding-bottom: 5vh;
+    @include devices(mobile) {
+      font-size: 30px;
+    }
   }
 }

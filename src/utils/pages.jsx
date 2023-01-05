@@ -39,7 +39,7 @@ export const pages = {
       transparentNavbar: false,
     },
     {
-      label: "SOCIAL",
+      label: "SOCIALS",
       component: <PageSocials />,
       path: "/social",
       transparentNavbar: false,

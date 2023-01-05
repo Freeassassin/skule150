@@ -59,29 +59,23 @@ const Countdown = () => {
   return (
     <div className="countdown-wrap">
       <div className="countdown">
-        <div className="countdown-number">
+        <div className="countdown-number day">
           <h1>{padWith0(checkNaN(getDateValues(countDown)[0]))}</h1>
           <h3>DAYS</h3>
         </div>
-        <div className="countdown-number">
+        <div className="countdown-number hour">
           <h1>{padWith0(checkNaN(getDateValues(countDown)[1]))}</h1>
           <h3>HOURS</h3>
         </div>
-        <div className="countdown-number">
+        <div className="countdown-number minute" >
           <h1>{padWith0(checkNaN(getDateValues(countDown)[2]))}</h1>
           <h3>MINUTES</h3>
         </div>
-        <div className="countdown-number">
+        <div className="countdown-number second">
           <h1>{padWith0(checkNaN(getDateValues(countDown)[3]))}</h1>
           <h3>SECONDS</h3>
         </div>
       </div>
-      {/* Only show confetti for the first 100 seconds overtime */}
-      {/* {countDown <= 0 && countDown / 1000 >= -100 ? (
-        <Confetti animate={true} />
-      ) : (
-        <></>
-      )} */}
     </div>
   );
 };

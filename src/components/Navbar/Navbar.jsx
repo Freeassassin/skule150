@@ -8,7 +8,7 @@ import SKULE150Logo from "../../assests/images/Skule150Logo.png";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar-desktop">
+      <div className="navbar-desktop desktop-only">
         <NavbarDesktop />
       </div>
     </>
