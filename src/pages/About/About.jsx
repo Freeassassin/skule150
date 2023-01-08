@@ -24,42 +24,40 @@ const PageAbout = () => {
         <div className="about-paragraph">
           <p>
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a urna
-            elementum lacus venenatis porta sed sed augue. Mauris augue urna,
-            tincidunt aliquam risus in, consectetur volutpat magna. Etiam eu
-            fringilla velit, eget pulvinar arcu. Donec tristique eget augue at
-            scelerisque. Mauris posuere consequat purus in sodales. Pellentesque
-            maximus turpis ac fermentum efficitur. Morbi aliquet sapien at est
-            porttitor sodales. Curabitur eget pretium velit. Proin gravida leo
-            ut suscipit lacinia. Curabitur purus augue, maximus eu eros vel,
-            lacinia pharetra risus. Integer porttitor justo elit, vel efficitur
-            lorem hendrerit et.
-            <br></br>
-            Donec nec enim eros. Sed gravida arcu felis, at eleifend nibh
-            vestibulum sit amet. Sed eleifend justo quis nisl tempus, at
-            pellentesque magna sagittis. Maecenas non felis vel enim imperdiet
-            aliquet. Phasellus accumsan pharetra orci id lobortis. Phasellus
-            lacinia dapibus posuere. Mauris a scelerisque turpis. Sed non neque
-            vel quam pharetra consectetur. Aliquam ultrices, urna sit amet
-            volutpat pulvinar, sapien sem ornare felis, congue sollicitudin sem
-            libero sed velit. Sed mollis venenatis neque, vitae interdum leo
-            gravida quis. Morbi tempor laoreet neque, vel dictum diam convallis
-            at. Maecenas tincidunt magna vel lacus commodo, ornare consequat
-            orci gravida. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Vestibulum ullamcorper,
-            lorem vitae semper aliquam, leo sem volutpat nibh, sed hendrerit
-            massa enim ut tellus. Aliquam ut elit non turpis fringilla viverra
-            eget vitae lacus. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Etiam faucibus nisi eu enim porta iaculis. Curabitur vitae
-            lectus ut lorem sollicitudin aliquam. Fusce in tempus tellus.
-            Suspendisse rutrum id eros eget sagittis. Orci varius natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Nullam dignissim, sem at suscipit congue, purus odio commodo nisi,
-            sed vestibulum enim nisl vitae massa. Phasellus vulputate egestas
-            ipsum. Praesent cursus tempus nisi, ut accumsan leo egestas eget.
-            Pellentesque posuere congue tortor sed laoreet. Cras nec condimentum
-            tellus, et euismod lacus. Nullam congue in quam pellentesque
-            ullamcorper.
+            On March 29th 1873 the School of Practical Science was established.
+            Since then, 150 years of history, achievements, mischief, and
+            community has brought us to this moment, a moment that calls for a
+            grand celebration. Welcome to Skule 150! We are a student run group
+            spearheading a series of events and initiatives in celebration of
+            the University of Toronto's Faculty of Applied Science and
+            Engineering's 150th anniversary.
+            <br />
+            <br />
+            There are many ways to get involved in the festivities. Follow us on
+            instagram, <a rel="noreferrer" target={"_blank"} href="https://instagram.com/skule150">@skule150</a>, to learn more about Skule's history through
+            our 150 days to the 150th campaign, where we post fun facts, photos,
+            and artifacts about each year counting down to March 29th. Repping
+            limited edition merch more your speed? Look out for our upcoming
+            drops and store takeovers. Look out for historic ceremonies like the
+            building and burying of our time capsule and don't miss our
+            commemorative 150th anniversary Skulebook.
+            <br />
+            <br />
+            We will also be running multiple events throughout the semester,
+            including a special archives event happening this Godiva's Week.
+            Leading up to the anniversary, we will be hosting a Women in
+            Engineering luncheon to honour the legacies, and look towards the
+            future, of women in engineering here at UofT. On March 29th 2023,
+            join us for a day of on-campus activities, surprises and
+            shenanigans. Our celebrations continue at our Skule 150 Gala.
+            Happening April 1st 2023, this landmark event brings together nearly
+            1000 faculty, alumni, and students in a party unlike anything Skule
+            has ever seen before.
+            <br />
+            <br />
+            This once in a lifetime occasion is one you won't want to miss. Stay
+            tuned for more updates and be sure to follow us on instagram 
+            <a rel="noreferrer" target={"_blank"} href="https://instagram.com/skule150">@skule150</a>
           </p>
         </div>
       </div>
