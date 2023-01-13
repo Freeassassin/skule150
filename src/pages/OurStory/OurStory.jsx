@@ -39,18 +39,19 @@ const PageOurStory = () => {
               // size="small"
               valueLabelDisplay="on"
               onChange={(event, value, active) => {
+                console.log(value);
                 yearChange(value);
               }}
               value={year}
               max={2023}
               min={1873}
-              // defaultValue={2023}
+              scale={(x) => -x + 2023 + 1873}
               step={1}
               marks={[
-                { value: 1873, label: "1873" },
-                { value: 1923, label: "1923" },
-                { value: 1973, label: "1973" },
-                { value: 2023, label: "2023" },
+                { value: 1873, label: "2023" },
+                { value: 1923, label: "1973" },
+                { value: 1973, label: "1923" },
+                { value: 2023, label: "1873" },
               ]}
             />
           </div>
@@ -64,15 +65,9 @@ const PageOurStory = () => {
               <h3>Click on photos for full screen view</h3>
             </div>
             <div className="timeline-content-description">
-              <button
-                onClick={() => {
-                  setYear(year + 1);
-                }}
-              >
-                click
-              </button>
+              
               <p>
-                {`Year: ${year}`}
+                {`Year: ${-year+2023+1873}`}
                 <br></br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum volutpat enim at tellus convallis, at sodales velit

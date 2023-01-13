@@ -4,6 +4,7 @@ import { PageAbout } from "../pages/About/About";
 import { PageSocials } from "../pages/Socials/Socials";
 import { PageStore } from "../pages/Store/Store";
 import { PageOurStory } from "../pages/OurStory/OurStory";
+import { PageEvents } from "../pages/Events/Events";
 import { PageMaintenance } from "../pages/Maintenance/Maintenance";
 // import { PageUnsubscribe } from "../pages/Unsubscribe/Unsubscribe";
 // import { PageResubscribe } from "../pages/Resubscribe/Resubscribe";
@@ -28,7 +29,7 @@ export const pages = {
     },
     {
       label: "EVENTS",
-      component: <PageMaintenance />,
+      component: <PageEvents />,
       path: "/events",
       transparentNavbar: false,
     },
