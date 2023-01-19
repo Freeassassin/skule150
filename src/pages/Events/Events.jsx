@@ -3,7 +3,7 @@ import Slider from "@mui/material/Slider";
 import { useEffect, useState } from "react";
 
 const PageEvents = () => {
-  const [value, setValue] = useState(1);
+  const [value, setValue] = useState(119);
 
   const eventsInfo = [
     {
@@ -69,9 +69,9 @@ const PageEvents = () => {
           <div className="events-timeline">
             <Slider
               orientation="vertical"
-              track='false'
-              valueLabelDisplay={"on"}
-            //   value={value}
+              track={false}
+              valueLabelDisplay={"off"}
+              value={value}
               max={150}
               min={1}
               step={1}
@@ -80,6 +80,8 @@ const PageEvents = () => {
                 { value: 118 },
                 { value: 83 },
                 { value: 67 },
+                { value: 43 },
+                { value: 21 },
               ]}
             />
           </div>
