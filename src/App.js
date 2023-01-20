@@ -27,7 +27,7 @@ const TransitionRoutes = () => {
       <CSSTransition key={location.key} classNames="page" timeout={300}>
         <Routes location={location}>
           <Route path="*" element={pages["404"].component} />
-          {[...pages.main].map((page) => {
+          {[...pages.main, ...pages.hidden].map((page) => {
             return (
               <Route
                 path={page.path}

@@ -6,6 +6,7 @@ import { PageStore } from "../pages/Store/Store";
 import { PageOurStory } from "../pages/OurStory/OurStory";
 import { PageEvents } from "../pages/Events/Events";
 import { PageMaintenance } from "../pages/Maintenance/Maintenance";
+import { PageGala } from "../pages/Gala/Gala";
 // import { PageUnsubscribe } from "../pages/Unsubscribe/Unsubscribe";
 // import { PageResubscribe } from "../pages/Resubscribe/Resubscribe";
 
@@ -49,6 +50,14 @@ export const pages = {
       label: "THE TEAM",
       component: <PageMaintenance />,
       path: "/team",
+      transparentNavbar: false,
+    },
+  ],
+  hidden: [
+    {
+      label: "GALA",
+      component: <PageGala />,
+      path: "/gala",
       transparentNavbar: false,
     },
   ],
