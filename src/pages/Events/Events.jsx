@@ -49,16 +49,16 @@ const PageEvents = () => {
     },
   ];
 
-  useEffect(() => {
-    // setCountDownDate(tempCountDownDate);
-    const countDown = new Date("2023/03/01").getTime() - new Date().getTime();
-    if (countDown <= 0) {
-      setValue(0);
-    }
-    const days = Math.floor(countDown / (1000 * 60 * 60 * 24)) + 1;
+  // useEffect(() => {
+  //   // setCountDownDate(tempCountDownDate);
+  //   const countDown = new Date("2023/03/01").getTime() - new Date().getTime();
+  //   if (countDown <= 0) {
+  //     setValue(0);
+  //   }
+  //   const days = Math.floor(countDown / (1000 * 60 * 60 * 24)) + 1;
 
-    setValue(days);
-  }, []);
+  //   setValue(days);
+  // }, []);
   return (
     <>
       <div className="events-page">
