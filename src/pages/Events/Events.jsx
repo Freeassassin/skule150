@@ -1,9 +1,8 @@
 import "./Events.scss";
 import Slider from "@mui/material/Slider";
-import { useEffect, useState } from "react";
 
 const PageEvents = () => {
-  const [value, setValue] = useState(119);
+  const value = 119;
 
   const eventsInfo = [
     {
@@ -22,7 +21,7 @@ const PageEvents = () => {
         "Robarts Thomas Fisher Rare Book Library, 120 St. George Street, 2nd Floor",
     },
     {
-      name: "WOMEN IN ENGINEERING EVENT",
+      name: "WOMEN OF SKULE",
       date: "DATE TO BE ANNOUNCED SOON!",
       description: "",
       location: "",
@@ -49,16 +48,6 @@ const PageEvents = () => {
     },
   ];
 
-  // useEffect(() => {
-  //   // setCountDownDate(tempCountDownDate);
-  //   const countDown = new Date("2023/03/01").getTime() - new Date().getTime();
-  //   if (countDown <= 0) {
-  //     setValue(0);
-  //   }
-  //   const days = Math.floor(countDown / (1000 * 60 * 60 * 24)) + 1;
-
-  //   setValue(days);
-  // }, []);
   return (
     <>
       <div className="events-page">

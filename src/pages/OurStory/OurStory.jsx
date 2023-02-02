@@ -3,14 +3,25 @@ import Slider from "@mui/material/Slider";
 import constructionGraphic from "../../assests/images/constructionGraphic.svg";
 import { useEffect, useState } from "react";
 
+
+
 const PageOurStory = () => {
   const [year, setYear] = useState(2023);
-
+  const [image, setImage] = useState(
+    require("../../assests/150photos/1873/Invitationtoclass1873.jpg")
+  );
   function yearChange(value) {
     setYear(value);
   }
   // get new data
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const dir = `./../../assests/150photos/${year}`;
+
+    // const files = fsp.readdir(dir);
+    // for (const file of files) console.log(file);
+
+    console.log(year);
+  }, [year]);
   return (
     <>
       <div className="ourstory-container">
@@ -59,15 +70,14 @@ const PageOurStory = () => {
             <div className="timeline-content-artifacts">
               <img
                 className="maintenance-logo"
-                src={constructionGraphic}
+                src={image}
                 alt="skule150 logo"
               />
               <h3>Click on photos for full screen view</h3>
             </div>
             <div className="timeline-content-description">
-              
               <p>
-                {`Year: ${-year+2023+1873}`}
+                {`Year: ${-year + 2023 + 1873}`}
                 <br></br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum volutpat enim at tellus convallis, at sodales velit
