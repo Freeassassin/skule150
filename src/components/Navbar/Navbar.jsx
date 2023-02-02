@@ -3,7 +3,7 @@ import "./Navbar.scss";
 
 import { Link, useLocation } from "react-router-dom";
 import { pages } from "../../utils/pages";
-import SKULE150Logo from "../../assests/images/Skule150Logo.png";
+import SKULE150Logo from "../../assests/images/Skule150Logo.svg";
 
 const Navbar = () => {
   return (
