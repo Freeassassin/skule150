@@ -13,7 +13,7 @@ const PageEvents = () => {
       location: "The Pit",
     },
     {
-      name: "SKULETM 150 RARE BOOK LIBRARY TAKEOVER",
+      name: "SKULE™ 150 RARE BOOK LIBRARY TAKEOVER",
       date: "THURSDAY, January 12TH 2023 | 3:00PM - 4:00PM",
       description:
         "Ever wanted the opportunity to visit the extremely exclusive UofT rare book library? Well this is your chance! Come join us as we partner with UTARMS to showcase an awesome exhibition about the history of SkuleTM through a variety of different artifacts from our school's history (the library is usually off limits to undergraduate students). To Find out more about the library check out the following link!",
@@ -21,27 +21,27 @@ const PageEvents = () => {
         "Robarts Thomas Fisher Rare Book Library, 120 St. George Street, 2nd Floor",
     },
     {
-      name: "WOMEN OF SKULE",
+      name: "WOMEN OF SKULE™",
       date: "DATE TO BE ANNOUNCED SOON!",
       description: "",
       location: "",
     },
     {
-      name: "SKULE 150 DAY",
+      name: "FOUNDING DAY",
       date: "WEDNESDAY, MARCH 29TH 2023 | 12:00PM - 6:00PM ",
       description:
         "Join us as we celebrate the day to mark 150 year of engineering at the University of Toronto. More information about the day schedule will be coming soon but we are super excited for what this awesome event has in store! More to come later...",
       location: "",
     },
     {
-      name: "SKULE 150 TIME CAPSULE SEALING CEREMONY",
+      name: "SKULE™ 150 TIME CAPSULE SEALING CEREMONY",
       date: "FRIDAY, MARCH 31ST 2023 | TIME TBA ",
       description:
         "In honour of Skule 150, we will be burying a time capsule to be opened in 20??. The time capsule will be filled with numerous tokens such as a leather jacket, a pair of covvies, and so much more, to represent the Skule we know and love today, for the Skule of the future!",
       location: "",
     },
     {
-      name: "SKULETM 150 MYSTERY EVENT",
+      name: "SKULE™ 150 MYSTERY EVENT",
       date: "SATURDAY, APRIL 1ST 2023 | TIME TBA ",
       description: "More info coming soon!",
       location: "",
