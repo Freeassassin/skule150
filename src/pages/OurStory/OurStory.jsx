@@ -7,18 +7,12 @@ import { useEffect, useState } from "react";
 
 const PageOurStory = () => {
   const [year, setYear] = useState(2023);
-  const [image, setImage] = useState(
-    require("../../assests/150photos/1873/Invitationtoclass1873.jpg")
-  );
   function yearChange(value) {
     setYear(value);
   }
   // get new data
   useEffect(() => {
-    const dir = `./../../assests/150photos/${year}`;
 
-    // const files = fsp.readdir(dir);
-    // for (const file of files) console.log(file);
 
     console.log(year);
   }, [year]);
@@ -70,7 +64,7 @@ const PageOurStory = () => {
             <div className="timeline-content-artifacts">
               <img
                 className="maintenance-logo"
-                src={image}
+                src={constructionGraphic}
                 alt="skule150 logo"
               />
               <h3>Click on photos for full screen view</h3>
