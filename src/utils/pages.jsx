@@ -36,14 +36,14 @@ export const pages = {
       path: "/social",
       transparentNavbar: false,
     },
-  ],
-  hidden: [
     {
       label: "GALA",
-      component: <PageGala />,
+      component: <PageMaintenance />,
       path: "/gala",
       transparentNavbar: false,
     },
+  ],
+  hidden: [
     {
       label: "OUR STORY",
       component: <PageOurStory />,
