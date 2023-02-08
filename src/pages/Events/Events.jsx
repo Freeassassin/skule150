@@ -21,7 +21,7 @@ const PageEvents = () => {
         "Robarts Thomas Fisher Rare Book Library, 120 St. George Street, 2nd Floor",
     },
     {
-      name: "WOMEN OF SKULE™",
+      name: "WOMEN OF SKULE™ SUMMIT",
       date: "DATE TO BE ANNOUNCED SOON!",
       description: "",
       location: "",
@@ -41,7 +41,7 @@ const PageEvents = () => {
       location: "",
     },
     {
-      name: "SKULE™ 150 MYSTERY EVENT",
+      name: "THE 150 GALA",
       date: "SATURDAY, APRIL 1ST 2023 | TIME TBA ",
       description: "More info coming soon!",
       location: "",
