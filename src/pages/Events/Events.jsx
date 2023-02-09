@@ -6,7 +6,7 @@ const PageEvents = () => {
 
   const eventsInfo = [
     {
-      name: "SKULE 150 STORE LAUNCH",
+      name: "SKULE™ 150 STORE LAUNCH",
       date: "Monday, January 9TH 2023",
       description:
         "To celebrate Skule 150 we will are super excited to be partnering with Engineering Stores to release a bunch of awesome new merch! We will be releasing new merch items throughout the semester which can be purchased either through EngStores or at Skule 150 Store pop-ups.",
