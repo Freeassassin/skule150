@@ -57,7 +57,7 @@ const PageAbout = () => {
             looking to honour the legacies and look towards the future of women
             in engineering here at UofT. On March 29th 2023, join us for a day
             of on-campus activities, surprises and shenanigans. Our celebrations
-            continue at our Skule 150 Gala. Happening April 1st 2023, this
+            continue at our 150 Gala. Happening April 1st 2023, this
             landmark event brings together nearly 1000 faculty, alumni, and
             students in a party unlike anything Skule has ever seen before.
             <br />
