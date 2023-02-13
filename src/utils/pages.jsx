@@ -38,7 +38,7 @@ export const pages = {
     },
     {
       label: "GALA",
-      component: <PageMaintenance />,
+      component: <PageGala />,
       path: "/gala",
       transparentNavbar: false,
     },
