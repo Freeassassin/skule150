@@ -125,8 +125,4 @@ export const themes = {
   "--scrollbar-thumb-hover": ["#616161", "#a1a1a1"],
   "--scrollbar-thumb": ["#7c7c7c", "#966AA3"],
   "--scrollbar-track": ["#fffff", "#ffff"],
-
-  "--scunt-counter-bg": ["#a1a1a1", "#a1a1a1"],
-
-  "--scunt-leaderboard-bar": ["#a1a1a1", "#a1a1a1"],
 };

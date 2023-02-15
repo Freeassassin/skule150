@@ -4,7 +4,7 @@ import { PageStore } from "../pages/Store/Store";
 import { PageOurStory } from "../pages/OurStory/OurStory";
 import { PageEvents } from "../pages/Events/Events";
 import { PageMaintenance } from "../pages/Maintenance/Maintenance";
-// import { PageGala } from "../pages/Gala/Gala";
+import { PageGala } from "../pages/Gala/Gala";
 
 export const pages = {
   404: {
@@ -38,7 +38,7 @@ export const pages = {
     },
     {
       label: "GALA",
-      component: <PageMaintenance />,
+      component: <PageGala />,
       path: "/gala",
       transparentNavbar: false,
     },
